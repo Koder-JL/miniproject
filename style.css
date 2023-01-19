@@ -17,11 +17,12 @@ Brown Sugar (#A07855FF) and Beige (#D4B996FF)
 */
 
 .logo-brand {
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
 .navbar {
     text-transform: uppercase;
+    background-color: #D4B996FF;
     background: rgba(0,0,0,0.4)!important;
     font-weight: 400;
     font-size: 1rem;
@@ -34,7 +35,7 @@ Brown Sugar (#A07855FF) and Beige (#D4B996FF)
   }
 
 .navbar-nav li {
-    padding-right: 1rem;
+    padding-right: .8rem;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -47,13 +48,9 @@ Brown Sugar (#A07855FF) and Beige (#D4B996FF)
 }
 
 
-/*============= SLIDER SECTION =============
-
-
-    */
+/*============= SLIDER SECTION =============*/
 .carousel-item {
-    height: 100vh;
-    
+    height: 100vh;    
     background-size: cover;
     background: no-repeat center center scroll;
     -webkit-background-size: cover;             
@@ -199,9 +196,18 @@ footer {
     color: white;
   }
 
+/*===== GUTTER FIX =====*/
 
-
-
-
+.row, .container-fluid {
+    margin-left: 0px!important;
+    margin-right: 0px!important;
+  }
+  
+/*--
+  @media (max-width: 375px) {
+    .navbar {
+      max-width: 380px;
+    }
+--*/
 
 
